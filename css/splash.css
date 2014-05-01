@@ -1,0 +1,35 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	background: #0D2744; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0D2744 0%, #03111d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0D2744), color-stop(100%,#03111d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #0D2744 0%,#03111d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #0D2744 0%,#03111d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #0D2744 0%,#03111d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #0D2744 0%,#03111d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0D2744', endColorstr='#03111d',GradientType=0 ); /* IE6-9 */
+}
+.splash_container{
+	width:960px;
+	height:446px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-223px 0 0 -450px;
+	background-image: url('/images/phone_bg.png');
+	background-repeat: no-repeat;
+	background-position: right 0px;
+}
+
+/*TEXT*/
+h1{
+	font-size:60px;
+	margin:100px 0;
+}
+.logo{
+	font-size:20px;
+}
+.logo span{
+	color:#ea4848;
+}
