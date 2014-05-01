@@ -57,6 +57,7 @@ h1{
 	background: #ea5b5b;
 	border-radius: 6px;
 	display:inline-block;
+	width:308px;
 }
 .form_field input[type="email"]{
 	border: none;
@@ -66,16 +67,20 @@ h1{
 	padding: 0 0 0 20px;
 	font-size: 17px;
 	width: 250px;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 .form_field input[type="submit"]{
 	background-image: url('/images/mail_icon.png');
 	background-color: transparent;
+	background-position:center;
 	border: none;
 	background-repeat: no-repeat;
-	height: 25px;
-	width: 25px;
-	margin:0 16px 0 8px;
-	display:inline-block;
+	height: 56px;
+	width: 44px;
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
 	cursor:pointer;
 }
