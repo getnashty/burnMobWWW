@@ -55,15 +55,21 @@ h1{
 /*FORMS*/
 .form_field{
 	background: #ea5b5b;
+	transition: all 0.5s ease;
 	border-radius: 6px;
 	display:inline-block;
 	width:308px;
+	box-shadow:none;
+}
+.form_field:hover{
+	box-shadow:0 0 10px 0 rgba(0, 163, 255, 1);
+	background:#BE3153;
 }
 .form_field input[type="email"]{
 	border: none;
 	border-radius: 4px;
-	line-height: 50px;
-	margin: 3px 4px;
+	line-height: 48px;
+	margin: 4px 5px;
 	padding: 0 0 0 20px;
 	font-size: 17px;
 	width: 250px;
